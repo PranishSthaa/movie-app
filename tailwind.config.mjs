@@ -7,6 +7,10 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        notoSerif: ["var(--font-noto-serif)",],
+        lato: ["var(--font-lato)"],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
